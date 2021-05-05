@@ -8,10 +8,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --surface: lch(90 0 0);
-    --surface2: grey;
-    --text: lch (20 0 0);
-    --text2: lch(40 0 0);
+    --surface: lightred;
+    --surface2: lightyellow;
+    --text: red;
+    --text2: steelblue;
   }
 }
 
@@ -180,7 +180,7 @@ aside > a {
   outline-offset: -1px;
   outline: 1px solid transparent;
 }
-aside:focus {
+aside > a:focus {
   outline-color: hsl(var(--brandHSL));
   transition: outline-color 0.25s ease;
 }
